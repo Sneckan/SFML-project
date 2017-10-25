@@ -1,4 +1,5 @@
-﻿  main.cpp
-  Game.cpp
-  Generating Code...
+﻿  Game.cpp
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\game.cpp(7): warning C4101: 'wasWPressed': unreferenced local variable
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\game.cpp(7): warning C4101: 'wasSPressed': unreferenced local variable
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\game.cpp(7): warning C4101: 'wasAPressed': unreferenced local variable
   SFML-project.vcxproj -> C:\Users\rasmu\OneDrive\Documents\GitHub\SFML-project\Debug\SFML-project.exe
