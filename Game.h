@@ -9,14 +9,14 @@ public:
 	Game();
 	~Game();
 
-	void Update(float dt);
+	void Update(float dt,sf::Event event ,sf::Vector2f mousePos);
+
 
 private:
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
-	sf::RectangleShape rect;
-	sf::Vector2f movement;
-	bool wasWPressed, wasAPressed, wasSPressed, wasDPressed;
-	bool isWPressed, isAPressed, isSpressed, isDPressed;
+	sf::RectangleShape player;
+	sf::CircleShape crossHair;
+	sf::Vector2f movement();
 };
 
 #endif
