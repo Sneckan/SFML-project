@@ -1,2 +1,12 @@
-﻿  main.cpp
-  SFML-project.vcxproj -> C:\Users\rasmu\OneDrive\Documents\GitHub\SFML-project\Debug\SFML-project.exe
+﻿  player.cpp
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\player.cpp(22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\player.cpp(27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\player.cpp(32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\player.cpp(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Game.cpp
+c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\game.cpp(40): error C2275: 'player': illegal use of this type as an expression
+  c:\users\rasmu\onedrive\documents\github\sfml-project\sfml-project\player.h(5): note: see declaration of 'player'
+  Generating Code...
+  Compiling...
+  main.cpp
+  Generating Code...

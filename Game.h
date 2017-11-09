@@ -2,6 +2,8 @@
 #define GAME_H
 
 #include<SFML/Graphics.hpp>
+#include "entity.h"
+#include "player.h"
 
 class Game : public sf::Drawable
 {
@@ -14,9 +16,10 @@ public:
 
 private:
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
-	sf::RectangleShape player;
 	sf::CircleShape crossHair;
 	sf::Vector2f movement();
+	player player1;
+	sf::Texture texturePlayer;
 };
 
 #endif
